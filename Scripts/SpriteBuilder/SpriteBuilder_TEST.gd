@@ -65,8 +65,29 @@ func _on_Button_pressed():
 	itex.create_from_image(self.spriteBuilder.spriteImage,0)	
 	$Sprite1.set_texture(itex)	
 	
+	itex = ImageTexture.new()    
 	self.spriteBuilder.Build()	
 	itex.create_from_image(self.spriteBuilder.spriteImage,0)	
 	$Sprite2.set_texture(itex)	
+	
+	itex = ImageTexture.new()    
+	self.spriteBuilder.Build()	
+	itex.create_from_image(self.spriteBuilder.spriteImage,0)	
+	$Sprite3.set_texture(itex)	
+	
+	itex = ImageTexture.new()    
+	self.spriteBuilder.Build()	
+	itex.create_from_image(self.spriteBuilder.spriteImage,0)	
+	$Sprite4.set_texture(itex)	
+	
+	itex = ImageTexture.new()    
+	self.spriteBuilder.Build()	
+	itex.create_from_image(self.spriteBuilder.spriteImage,0)	
+	$Sprite5.set_texture(itex)	
+	
+	itex = ImageTexture.new()    
+	self.spriteBuilder.Build()	
+	itex.create_from_image(self.spriteBuilder.spriteImage,0)	
+	$Sprite6.set_texture(itex)	
 	
 	pass # Replace with function body.

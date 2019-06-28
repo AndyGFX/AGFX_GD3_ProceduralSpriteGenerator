@@ -20,9 +20,32 @@ margin_bottom = 46.0
 text = "Generate"
 
 [node name="Sprite2" type="Sprite" parent="."]
-position = Vector2( 138, 63 )
+position = Vector2( 134, 63 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 2 )
 centered = false
 
+[node name="Sprite3" type="Sprite" parent="."]
+position = Vector2( 231, 63 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Sprite4" type="Sprite" parent="."]
+position = Vector2( 37, 160 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Sprite5" type="Sprite" parent="."]
+position = Vector2( 134, 160 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Sprite6" type="Sprite" parent="."]
+position = Vector2( 231, 160 )
+scale = Vector2( 4, 4 )
+texture = ExtResource( 2 )
+centered = false
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
