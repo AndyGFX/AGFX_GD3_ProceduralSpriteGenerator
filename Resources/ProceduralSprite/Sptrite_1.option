@@ -1,0 +1,13 @@
+{
+	"brightnessNoise": 0.3,
+	"colorEmpty": "00ffffff",
+	"colorOutline": "ff000000",
+	"colorSkin1": "ffff0000",
+	"colorSkin2": "ff0000ff",
+	"colorSolid": "ff00ff00",
+	"colorVariations": 0.2,
+	"colored": true,
+	"edgeBrightness": 0.2,
+	"renderMode": 2,
+	"saturation": 0.5
+}

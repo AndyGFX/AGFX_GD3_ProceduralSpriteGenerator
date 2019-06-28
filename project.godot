@@ -1,0 +1,53 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Node",
+"class": "SpriteBuilder",
+"language": "GDScript",
+"path": "res://Scripts/SpriteBuilder/SpriteBuilder.gd"
+}, {
+"base": "Node",
+"class": "SpriteBuilderMask",
+"language": "GDScript",
+"path": "res://Scripts/SpriteBuilder/SpriteBuilderMask.gd"
+}, {
+"base": "Node",
+"class": "SpriteBuilderOptions",
+"language": "GDScript",
+"path": "res://Scripts/SpriteBuilder/SpriteBuilderOptions.gd"
+} ]
+_global_script_class_icons={
+"SpriteBuilder": "",
+"SpriteBuilderMask": "",
+"SpriteBuilderOptions": ""
+}
+
+[application]
+
+config/name="AGFX_GD3_ProceduralSpriteGenerator"
+run/main_scene="res://SpriteBuilder_TEST.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+json_beautifier="*res://Scripts/Utils/json_beautifier.gd"
+Utils="*res://Scripts/Utils/Utils.gd"
+
+[display]
+
+window/size/width=512
+window/size/height=300
+window/size/test_width=1024
+window/size/test_height=600
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
