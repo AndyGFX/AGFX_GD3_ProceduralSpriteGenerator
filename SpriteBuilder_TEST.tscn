@@ -48,4 +48,5 @@ position = Vector2( 231, 160 )
 scale = Vector2( 4, 4 )
 texture = ExtResource( 2 )
 centered = false
+
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

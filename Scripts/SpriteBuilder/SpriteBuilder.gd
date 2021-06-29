@@ -81,8 +81,8 @@ func GenerateRandomSample()-> void:
 	
 	var h = self.height
 	var w = self.width
-	var x = 0
-	var y = 0
+	#var x = 0
+	#var y = 0
 	var val = 0
 	
 	for y in range(h):
@@ -106,8 +106,8 @@ func GenerateEdges() -> void:
 	
 	var h = self.height
 	var w = self.width
-	var x = 0
-	var y = 0
+	#var x = 0
+	#var y = 0
 	var edge_idx:int = -1; 
 	
 	
@@ -137,8 +137,8 @@ func RenderPixelData1()->void:
 	var isVerticalGradient = randf() > 0.5;
 	var saturation = max(min(rand_range(0.0,1.0) * self.options.saturation, 1.0), 0.0)
 	var hue = rand_range(0.0,1.0)
-	var u = 0
-	var v = 0
+	#var u = 0
+	#var v = 0
 	var ulen = 0
 	var vlen = 0
 
